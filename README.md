@@ -81,6 +81,12 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
 python -m ingestion.run_ingestion --source_dir "path/to/your/pdf_documents"
 ```
 
+or
+```bash
+python -m ingestion.run_ingestion 
+```
+
+
 ### 2. Running the RAG Pipeline / Application
 
 ```bash
