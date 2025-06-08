@@ -9,7 +9,7 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
 *   **Document Ingestion:** Processes PDF documents, extracts text and tables, chunks content, generates embeddings, and stores them in a vector database.
 *   **Intelligent Retrieval:** Retrieves relevant document chunks based on user queries.
 *   **Augmented Generation:** Uses an LLM (Google Gemini) to synthesize answers based on retrieved context.
-*   **Conversational Interface:** (Assuming you'll build one, e.g., with Streamlit or a CLI) Allows users to ask questions and receive answers.
+*   **CLI:** Allows users to ask questions and receive answers.
 *   **Stateful Workflows:** Utilizes LangGraphs to manage conversational state and complex multi-step reasoning.
 
 ## Tech Stack
