@@ -61,32 +61,8 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
     ```bash
     pip install -r requirements.txt
     ```
-    *Example `requirements.txt` content:*
-    ```txt
-    # Core LangChain and LLM components
-    langchain
-    langchain-core
-    langchain-community
-    langchain-google-genai
-    langgraph
+    other dependencies if any
 
-    # Vector Store
-    chromadb
-    sentence-transformers
-
-    # Document Parsing
-    unstructured[local-inference,gcp]
-    pypdf
-    pandas
-    lxml
-    html5lib
-    beautifulsoup4
-
-    # Environment variable management
-    python-dotenv
-
-    # (Optional: streamlit, fastapi, uvicorn)
-    ```
 
 4.  **Set Up Environment Variables:**
     Create a `.env` file in the root directory of the project and add your credentials:
