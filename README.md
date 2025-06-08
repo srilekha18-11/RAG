@@ -1,8 +1,8 @@
 # RAG Workflows
 
-This project implements a Retrieval Augmented Generation (RAG) system tailored for querying and understanding documents related to civil engineering. It leverages Large Language Models (LLMs) to provide insightful answers based on a corpus of ingested documents.
+This project implements a Retrieval Augmented Generation (RAG) system tailored for querying and understanding documents. It leverages Large Language Models (LLMs) to provide insightful answers based on a corpus of ingested documents.
 
-The system is built using LangChain and LangGraphs for orchestrating complex LLM workflows, `unstructured` for robust document parsing (including tables), ChromaDB for vector storage and retrieval, and Google Gemini as the primary LLM.
+The system is built using LangChain and LangGraphs for orchestrating complex LLM workflows, `unstructured` for robust document parsing (including tables), ChromaDB for vector storage and retrieval, and Google Gemini as the primary LLM :)
 
 ## Features
 
