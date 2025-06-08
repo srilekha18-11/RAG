@@ -1,4 +1,4 @@
-# Civil Engineering RAG System
+# RAG Workflows
 
 This project implements a Retrieval Augmented Generation (RAG) system tailored for querying and understanding documents related to civil engineering. It leverages Large Language Models (LLMs) to provide insightful answers based on a corpus of ingested documents.
 
