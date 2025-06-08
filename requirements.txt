@@ -1,0 +1,15 @@
+python-dotenv
+langchain
+langchain-google-genai
+langgraph
+google-cloud-vision
+google-cloud-aiplatform # For Gemini if not using langchain-google-genai for all
+chromadb
+pypdf
+unstructured[pdf,ocr] # For text PDF table extraction & fallback OCR
+pytesseract # If using unstructured with tesseract, install tesseract OCR engine too
+opencv-python-headless # Dependency for some image processing
+tiktoken # For token counting
+rich # For CLI
+pandas # For potential table manipulation
+lxml # Dependency for unstructured
