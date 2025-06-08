@@ -69,6 +69,8 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
     ```env
     GOOGLE_API_KEY="your_gemini_api_key_here"
     GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account-file.json"
+    DATA_REPO_PATH="./data"
+    VECTOR_STORE_PATH="./chroma_db_data"
     ```
 
 ## Running the Application
