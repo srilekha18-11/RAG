@@ -93,25 +93,29 @@ python -m rag_pipeline.app
 ## Project Structure
 
 ```
-civil_eng_rag/
-├── data/
-│   └── pdf_documents/
-├── db/
-├── ingestion/
-│   ├── __init__.py
-│   ├── document_parser.py
+.
+├── config.py
+├── data
+│   └── ASME
+│       └── D4191.pdf
+├── .gitignore
+├── ingestion
 │   ├── chunker.py
-│   ├── vector_store_manager.py
-│   └── run_ingestion.py
-├── rag_pipeline/
+│   ├── document_parser.py
+│   ├── __init__.py
+│   ├── README.md
+│   ├── run_ingestion.py
+│   └── vector_store_manager.py
+├── main.py
+├── rag_pipeline
+│   ├── graph_builder.py
+│   ├── graph_state.py
 │   ├── __init__.py
 │   ├── nodes.py
-│   ├── graph.py
-│   ├── app.py
-│   └── (config.py)
-├── .env
-├── requirements.txt
-└── README.md
+│   ├── prompts.py
+│   └── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## Configuration
