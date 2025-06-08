@@ -21,8 +21,7 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
 *   **`unstructured`:** For advanced PDF parsing, including text and table extraction.
     *   Leverages Google Cloud Vision API via `unstructured` for OCR on scanned PDFs/images when configured.
 *   **Sentence Transformers (or other embedding model):** For generating text embeddings.
-*   **(Optional) Streamlit/FastAPI:** For building a user interface or API.
-
+  
 ## Prerequisites
 
 1.  **Python & Pip:** Ensure Python (3.10 or newer) and pip are installed.
