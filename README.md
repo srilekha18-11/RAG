@@ -46,8 +46,8 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
-    cd civil_eng_rag # Or your project's root directory name
+    git clone https://github.com/srilekha18-11/RAG.git
+    cd RAG
     ```
 
 2.  **Create and Activate a Virtual Environment:**
