@@ -38,12 +38,8 @@ The system is built using LangChain and LangGraphs for orchestrating complex LLM
     *   `unstructured` (especially with `strategy="hi_res"`) and its underlying PDF processing (which often uses `pdf2image`) may require system libraries:
     *   **Poppler:** For PDF rendering and image conversion.
         *   Debian/Ubuntu: `sudo apt-get update && sudo apt-get install -y poppler-utils`
-        *   macOS: `brew install poppler`
-        *   Windows: Download Poppler binaries, add to PATH. [See `pdf2image` docs for Windows setup](https://pypi.org/project/pdf2image/).
     *   **Tesseract OCR Engine (Fallback OCR):** Even if using Google Vision, having Tesseract can be a useful fallback or for certain `unstructured` strategies.
         *   Debian/Ubuntu: `sudo apt-get install -y tesseract-ocr libtesseract-dev`
-        *   macOS: `brew install tesseract tesseract-lang`
-        *   Windows: Install Tesseract using an MSI installer, add to PATH. Ensure `tesseract` command is available.
     *   Check the [`unstructured` installation guide](https://unstructured-io.github.io/unstructured/installing.html) and [`pdf2image` documentation](https://pypi.org/project/pdf2image/) for the latest system dependency details.
 
 ## Setup Instructions
